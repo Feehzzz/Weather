@@ -1,0 +1,14 @@
+body {
+  align-items: center;
+  background: linear-gradient(rgb(222, 242, 255), rgb(100, 116, 255));
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: 100vh;
+  justify-content: center;
+}
+.container {
+  align-content: center;
+}
+
