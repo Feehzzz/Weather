@@ -47,3 +47,18 @@ body {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
+
+@keyframes slide {
+  0% {
+    background: linear-gradient(rgb(222, 242, 255), rgb(100, 116, 255))
+  } 
+  50% {
+    background: linear-gradient(rgb(222, 242, 255), rgb(100, 116, 255))
+  }
+  60%{
+    background: linear-gradient(10deg, #a1d9b4 20%, #32988a 40%, #000e3c 70%)
+  }
+  90%{
+    background: linear-gradient(10deg, #a1d9b4 20%, #32988a 40%, #000e3c 70%);
+  }
+}
