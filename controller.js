@@ -11,7 +11,7 @@ module.exports = {
     const api = `https://api.hgbrasil.com/weather?key=${api_key}lat=${latitude}&log=${longitude}`
     const result = await axios.get(api);
     const data = result.data;
-   
+    
     return res.json(data);
   } catch (error) {
     next(error)
